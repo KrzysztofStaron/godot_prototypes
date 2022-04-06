@@ -1,4 +1,5 @@
 extends KinematicBody2D
+class_name Player
 
 export var speed := 80
 export var bullet : PackedScene
