@@ -8,11 +8,28 @@
 
 config_version=4
 
+_global_script_classes=[ {
+"base": "Node2D",
+"class": "Turret",
+"language": "GDScript",
+"path": "res://turrets/base/turretBase.gd"
+} ]
+_global_script_class_icons={
+"Turret": ""
+}
+
 [application]
 
 config/name="Tower Defense"
 run/main_scene="res://main.tscn"
 config/icon="res://icon.png"
+
+[display]
+
+window/size/width=455
+window/size/height=256
+window/stretch/mode="2d"
+window/stretch/aspect="keep_height"
 
 [physics]
 
